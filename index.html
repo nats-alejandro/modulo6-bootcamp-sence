@@ -5,10 +5,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Aerolíneas Figma</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
-
-<!-- Tipografía -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,29 +14,26 @@
 <header class="header">
 
 <div class="nav-container">
+  
 
-<img src="img/logo.png" class="logo" alt="Logo Aerolíneas Figma">
+<img src="img/logo.png" class="logo">
 
-<nav aria-label="Menú principal">
 <ul class="menu">
 <li><a href="#">Ofertas</a></li>
 <li><a href="#">Reserva tu vuelo</a></li>
 <li><a href="#">Contacto</a></li>
 </ul>
-</nav>
 
 </div>
 
 </header>
 
 
-<main>
-
-<section class="hero" aria-label="Promoción principal de viajes">
+<section class="hero">
 
 <div class="hero-content">
-<h1>¿Hacia dónde tienes pensado ir?</h1>
-<button class="btn" aria-label="Reservar un vuelo ahora">RESERVA YA</button>
+<h1>¿Buscando vuelos?</h1>
+<button class="btn">RESERVA YA</button>
 </div>
 
 </section>
@@ -49,9 +44,6 @@
 <h2>Revisa nuestros packs</h2>
 
 <div class="pack-grid">
-
-<div class="pack destacado" aria-label="Pack destacado"></div>
-
 <div class="pack">
 <h3>Pack 1</h3>
 <p class="dias">3 días y 2 noches</p>
@@ -64,7 +56,7 @@
 <li>Beneficio 4</li>
 </ul>
 
-<button class="btn" aria-label="Comprar pack 1">Comprar</button>
+<button class="btn">Comprar</button>
 </div>
 
 
@@ -81,7 +73,7 @@
 <li>Beneficio 5</li>
 </ul>
 
-<button class="btn" aria-label="Comprar pack 2">Comprar</button>
+<button class="btn">Comprar</button>
 </div>
 
 
@@ -98,14 +90,12 @@
 <li>Beneficio 5</li>
 </ul>
 
-<button class="btn" aria-label="Comprar pack 3">Comprar</button>
+<button class="btn">Comprar</button>
 </div>
 
 </div>
 
 </section>
-
-</main>
 
 
 <footer>
@@ -114,47 +104,26 @@
 
 <div class="footer-info">
 <h3>Aerolíneas Figma</h3>
-<address>
 <p>Av. Brasil #1538, Valparaíso, Chile</p>
-<p>
-<a href="mailto:contacto@aerolineasfigma.cl">
-contacto@aerolineasfigma.cl
-</a>
-</p>
-</address>
+<p>contacto@aerolineasfigma.cl</p>
 </div>
 
 
 <div class="newsletter">
-<h3>Suscríbete a nuestro newsletter</h3>
+<h3>Suscríbete a nuestro Newsletter</h3>
 
-<form class="newsletter-form">
-
-<label for="email-newsletter" class="sr-only">
-Correo electrónico
-</label>
-
-<input 
-type="email"
-id="email-newsletter"
-placeholder="you@example.com"
-required
-aria-label="Ingresa tu correo electrónico">
-
+<div class="newsletter-form">
+<input type="email" placeholder="you@example.com">
 <button class="btn">Enviar</button>
-
-</form>
-
 </div>
 
 </div>
 
-<p class="copyright">
-Todos los derechos reservados - NAGR
-</p>
+</div>
+
+<p class="copyright">Todos los derechos reservados, hecho por Nats Alejandro González Rojas</p>
 
 </footer>
 
 </body>
 </html>
-
